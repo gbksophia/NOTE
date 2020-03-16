@@ -42,7 +42,7 @@
 	
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><img src="../IMGren/wilusLogo.png" alt=""  width="300px"  height="auto"></a>
+	      <a class="navbar-brand" href="index.html"><img src="../IMGren/WilusLOGO_removebg.png" alt=""  width="300px"  height="auto"></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -98,6 +98,8 @@
                 </div>
 	          </li>
 	          <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+	          
+	          <!-- 
 	          <li class="nav-item dropdown">
 	          	<a class="nav-link dropdown-toggle"  href="contact.html" class="nav-link" 
 	          	role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -108,26 +110,21 @@
 					<a class="dropdown-item" href="#">Get in Touch</a>     
                 </div>
 	          </li>
+	           -->
 	          
-	          <li class="nav-item dropdown">
-              	<a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
-                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 pages
-               </a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-					<a class="dropdown-item" href="login.html"> login</a>
-                    <a class="dropdown-item" href="tracking.html">tracking</a>
-                    <a class="dropdown-item" href="checkout.html">product checkout</a>
-                    <a class="dropdown-item" href="cart.html">shopping cart</a>
-                    <a class="dropdown-item" href="confirmation.html">confirmation</a>
-                    <a class="dropdown-item" href="elements.html">elements</a>
-                </div>
-              </li>
+	          <form class="form-inline">
+				  <button type="button" class="btn btn-primary  navbar-btn" 
+				  data-toggle="modal" data-target="#myModal" >
+				    Contact Us
+				  </button>
+              </form>
 	          	          
 	        </ul>
 	      </div>
 		  </div>
 	  </nav>
+	  
+	  
     <!-- END nav -->
     
  <div class="row">
@@ -142,7 +139,53 @@
     
 </div> <!-- wrapper -->
 
-
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Contact Us</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" >
+		   <form action="/action_page.php">
+		    <div class="row" >
+		      <div class="col" style="padding-top:15px;" >
+		        <input type="text" class="form-control" id="email" placeholder="성함" name="yourName">
+		      </div>
+		      <div class="col" style="padding-top:15px;" >
+		        <input type="text" class="form-control" placeholder="이메일" name="email">
+		      </div>
+		    </div>
+		     <div class="row">
+		      <div class="col"  style="padding-top:15px;">
+		        <input type="text" class="form-control" id="email" placeholder="회사명" name="company">
+		      </div>
+		      <div class="col" style="padding-top:15px;">
+		        <input type="text" class="form-control" placeholder="연락처" name="cContact">
+		      </div>
+		    </div>
+		    <div class="row" >
+		      <div class="col"  style="padding-top:15px;">
+		        <textarea class="form-control" cols="70" rows="4" name="mesage" placeholder="메세지"></textarea>
+		      </div>
+		    </div>
+		    <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+		  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 
 <!--
     <section class="hero-wrap" style="background-color: transparent; height=auto;" data-stellar-background-ratio="0.5" >
