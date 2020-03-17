@@ -10671,6 +10671,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	background-color: #88be2c;
 }
 
+
+/* custom css by gbkim */
 #slider {
 	margin-top: 10%;
 	background-size: cover;
@@ -10760,6 +10762,12 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	border-radius: 25px;
 	color: #d9bf77;
 }
+
+
+
+/* custom css by gbkim */
+
+
 
 .hero-wrap {
 	width: 100%;
@@ -11615,7 +11623,7 @@ textarea.form-control {
 	height: 40px;
 	width: 40px;
 	display: block;
-	background: #d9bf77;
+	background: #88be2c;
 	border-radius: 50%;
 	position: relative;
 	color: #d9bf77 !important;
